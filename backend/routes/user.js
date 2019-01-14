@@ -6,5 +6,7 @@ router.post("/signup", UserController.createUser);
 
 router.post("/login", UserController.userLogin);
 
+router.get("/refreshtoken", UserController.refreshToken)
+
 
 module.exports = router;
